@@ -51,3 +51,11 @@ a:hover{
   vertical-align: top;
   text-align: left;
 }
+.list a:hover{
+  font-weight: lighter;
+  color: rgb(5, 61, 5);
+}
+.list a:active{
+  font-weight: lighter;
+  color: rgb(61, 5, 5);
+}
