@@ -1,4 +1,5 @@
 body{
+  position: relative;
   background-image: url(IMG_0926.jpg);
   background-attachment: fixed;
   background-size: 100% auto;
@@ -58,4 +59,20 @@ a:hover{
 .list a:active{
   font-weight: lighter;
   color: rgb(61, 5, 5);
+}
+.house{
+  background-image: url(home-page.svg);
+  background-size: 30px 30px;
+  position: fixed; 
+  top: 5px; 
+  right: 5px; 
+  height: 30px;
+  width: 30px;
+}
+.house:hover{
+  background-image: url(home-page-hover.svg);
+  background-size: 30px 30px;
+}
+.house:active{
+  background-image: url(home-page-active.svg);
 }
